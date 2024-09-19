@@ -1,0 +1,48 @@
+commands
+--------
+SELECT, UPDATE, DELETE, INSERT, WHERE
+
+Select All column
+------------------
+syntax
+------
+Select * From Employees
+
+select => clause
+* => all column
+from => clause
+employees => table name
+
+
+To fetch select column
+----------------------
+syntax
+------
+SELECT column1
+FROM table_name
+
+To fetch more one column
+------------------------
+syntax
+------
+SELECT column1, column2,...
+FROM table_name
+
+DISTINCT (only unique (non-duplicate) value)
+--------------------------------------------
+SELECT DISTINCT column1, column2, ...
+FROM table_name
+
+COUNT (only unique value count)
+-------------------------
+SELECT COUNT(DISTINCT column1) FROM table_name;
+
+WHERE => clause (use filter)
+----------------------------
+syntax
+------
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition; (column1 = "name") => Literial string SQL is not case sensitive but data is always case sensitive.
+
+Operator (=, >, <, <=, >=, BETWEEN, IN, LIKE)
