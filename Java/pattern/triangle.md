@@ -67,7 +67,7 @@ class Pattern {
 ```Java
 class Pattern {
     public static void main(String[] args) {
-        int n = 7;
+        int n = 6;
 
         for(int i = 1; i <= n; i++) {
             for(int j = i; j < n; j++) {
@@ -96,7 +96,7 @@ class Pattern {
 ```Java
 class Pattern {
     public static void main(String[] args) {
-        int n = 7;  // count of line
+        int n = 6;  // count of line
 
         for (int i = n; i >= 1; i--) {
             // print leading spaces
