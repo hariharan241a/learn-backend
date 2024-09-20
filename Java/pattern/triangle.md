@@ -1,4 +1,4 @@
-<h5>Triangle pattern</h5>
+<h4>Triangle pattern</h4>
 <p>Increasing triangle</p>
 <ol>
   <li>Left increasing triangle</li>
@@ -10,7 +10,7 @@
   <li>Right decreasing triangle</li>
 </ol>
 
-<p>Left increasing triangle</p>
+<h4>Left increasing triangle</h4>
 
 ```Java
 class Pattern {
@@ -26,7 +26,7 @@ class Pattern {
     }
 }
 ```
-<p>Output</p>
+<h4>Output</h4>
 
 ```
 * 
@@ -36,8 +36,7 @@ class Pattern {
 * * * * * 
 * * * * * * 
 ```
-
-<p>Left decreasing triangle</p>
+<h4>Left decreasing triangle</h4>
 
 ```Java
 class Pattern {
@@ -53,7 +52,7 @@ class Pattern {
     }
 } 
 ```
-<p>Output</p>
+<h4>Output</h4>
 
 ```
 * * * * * * 
@@ -63,7 +62,7 @@ class Pattern {
 * * 
 * 
 ```
-<p>Right increasing triangle</p>
+<h4>Right increasing triangle</h4>
 
 ```Java
 class Pattern {
@@ -82,7 +81,7 @@ class Pattern {
     }
 }
 ```
-<p>Output</p>
+<h4>Output</h4>
 
 ```
           * 
@@ -92,7 +91,7 @@ class Pattern {
   * * * * * 
 * * * * * * 
 ```
-<p>Right decreasing triangle</p>
+<h4>Right decreasing triangle</h4>
 
 ```Java
 class Pattern {
@@ -113,7 +112,7 @@ class Pattern {
     }
 }
 ```
-<p>Output</p>
+<h4>Output</h4>
 
 ```
 * * * * * * 
