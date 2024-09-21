@@ -1,0 +1,41 @@
+Abstraction
+-----------
+only show essential details, Hide all other details.
+
+abstract => non access modifier, used for class and methods.
+
+abstraction real time
+----------------------
+
+Interface                 Implementation 
+---------                 --------------
+show outside class        hide from outside
+
+abstraction type
+----------------
+Partial abstraction
+Fully abstraction
+
+Partial abstraction (abstract class)
+------------------------------------
+contains use both abstracts and non abstract methods
+we can't create object
+contains use (extends) keywords
+
+Fully abstraction
+-----------------
+only abstract method use
+we can't create object
+contains use (implementation) keywords
+
+note
+----
+abstract method      => not use any business logic.
+non abstract method  => use any business logic.
+
+class access
+------------
+class to class (extends)
+interface to interface (extends)
+interface to abstract class (implementation)
+

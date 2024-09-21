@@ -1,0 +1,25 @@
+constructors
+------------
+class name using to same method define.
+
+constructors => special method
+used for initializing value
+no return type
+
+-------------------------------------------------
+
+public class Main {
+    int x;
+
+    public void Main(int y) { // constructors use
+        x = y;
+    }
+    public static void main(String[] args) {
+        Main s1 = new Main();
+        s1.Main(10);
+        System.out.println(s1.x);
+        
+    }
+}
+
+--------------------------------------------------------
