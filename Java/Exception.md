@@ -1,6 +1,3 @@
-Exception
----------
-
 ArithmeticException
 -------------------
 ```java
