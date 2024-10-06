@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class SplitString {
+    public static void main(String[] args) {
+        // Input string and delimiter
+        String str = "apple,banana,orange,grape";
+        String delimiter = ",";
+
+        // Split the string
+        String[] substrings = str.split(delimiter);
+       
+
+        // Output the array of substrings
+        System.out.println("Substrings: " + Arrays.toString(substrings));
+    }
+}

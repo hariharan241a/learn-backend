@@ -1,0 +1,28 @@
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter value: ");
+
+        String strVal = scan.nextLine();
+        
+        // Create a LinkedHashSet to store characters and preserve order
+        Set<Character> charSet = new LinkedHashSet<>();
+        
+        // Add each character to the set (duplicates are automatically ignored)
+        for (char c : strVal.toCharArray()) {
+            charSet.add(c);
+        }
+        
+        // Build the result string without duplicates
+        StringBuilder result = new StringBuilder();
+        for (char c : charSet) {
+            result.append(c);
+        }
+        
+        System.out.println("String after removing duplicates: " + result);
+    }
+}

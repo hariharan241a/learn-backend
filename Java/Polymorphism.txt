@@ -1,0 +1,25 @@
+Polymorphism
+------------
+ability of method to take more than one form.
+
+Poly - many
+Morphism - form
+
+method overloading (compile time polymorphism/static binding/static polymorphism)
+------------------
+same class
+multi time same method name
+different arguments
+
+arguments depends on database, count, order.
+
+method overriding (runtime polymorphism)
+-----------------
+different class
+multi time again and again same method name.
+same arguments
+
+arguments depends on database, count, order.
+
+
+

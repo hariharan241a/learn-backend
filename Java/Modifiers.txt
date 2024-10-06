@@ -1,0 +1,55 @@
+Modifiers
+---------
+
+two groups:
+
+Access modifiers     => control access level
+Non access modifiers => not access level
+
+Set access (class, attributes, methods and constructors) following use it.
+
+access modifiers
+----------------
+public
+private
+default
+protected
+
+public
+------
+global level access any package access class or methods.
+same class file (extends, object)
+different class file (extends, object)
+
+private
+-------
+class level access modifiers
+same class file (object)
+same class file not use extends keyword
+different class file not use (extends, object)
+
+protected
+---------
+any package access class or methods
+same class file (extends, object)
+different class file (extends, object)
+
+default
+-------
+class level access (public , private, protected) not use keywords (attributes, methods)
+same class file (extends, object)
+different class file (extends, object)
+
+Non access modifiers
+--------------------
+attributes, methods use one following.
+
+non access type
+---------------
+final => method level (can't overridden modified)
+static => method level
+abstract => class level
+transient
+synchronized
+volatile
+

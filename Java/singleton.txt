@@ -1,0 +1,15 @@
+singleton
+---------
+same package one object
+
+prototype
+---------
+same package multi object
+
+what is debug?
+Line by line execution compile by line verification.
+
+why debug?
+To understand the execution flow.
+when we face any exception not getting expected result.
+

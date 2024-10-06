@@ -1,0 +1,34 @@
+import java.util.Set;
+import java.util.LinkedHashSet;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Set<Integer> st = new LinkedHashSet<>();
+        st.add(20);
+        st.add(50);
+        st.add(10);
+        st.add(70);
+        st.add(30);
+        st.add(10);
+
+        // print HashSet 
+        System.out.println(st);
+
+        // element size
+        System.out.println(st.size());
+
+       // remove element
+       st.remove(20);
+       System.out.println(st);
+
+       // check element
+       Boolean check = st.contains(10);
+       System.out.println(check);
+
+       // iterator element
+       for (int i : st) {
+        System.out.println(i);
+       }
+    }
+}

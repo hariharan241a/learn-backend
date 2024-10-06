@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> li = new ArrayList<>();
+        li.add(40);
+        li.add(10);
+        li.add(50);
+        li.add(30);
+        li.add(50);
+
+        // print ArrayList
+        System.out.println(li);
+
+        // insert element
+        li.add(5, 10);
+        System.out.println(li);
+
+        // access element
+        System.out.println(li.get(2));
+
+        // change element
+        li.set(5, 20);
+        System.out.println(li);
+
+        // remove element
+        li.remove(4);
+        System.out.println(li);
+
+        // ArrayList size
+        System.out.println(li.size());
+        
+        // For loop
+        for (int i = 0; i < li.size(); i++) {
+            System.out.println(li.get(i));
+        }
+
+        // Each loop
+        for (int i : li) {
+            System.out.println(i);
+        }
+
+        // reverese ArrayList
+        Collections.sort(li, Collections.reverseOrder());
+        System.out.println(li);
+
+        // order ArrayList
+        Collections.sort(li);
+        System.out.println(li);
+    }
+}

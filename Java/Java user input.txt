@@ -1,0 +1,25 @@
+Java user input
+---------------
+Scanner class => used to get user input at runtime.
+It is present in packages => Java.util
+
+Scanner methods
+---------------
+nextInt()
+nextByte()
+nextShort()
+nextFloat()
+nextLong()
+nextLine()
+nextBoolean()
+nextDouble()
+next()
+
+nextLine()
+---------
+It accept space
+
+next()
+------
+It ignore space => not accept space.
+

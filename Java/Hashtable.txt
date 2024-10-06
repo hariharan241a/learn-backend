@@ -1,0 +1,51 @@
+import java.util.Map;
+import java.util.Hashtable;
+
+public class Main {
+    public static void main(String[] args) {
+        Map<String, Integer> mp = new Hashtable<>();
+        
+        // add items
+        mp.put("Java", 22);
+        mp.put("C++", 10);
+        mp.put("SQL", 40);
+        mp.put("Golang", 24);
+        mp.put("Java", 22);
+
+        // print key and value
+        System.out.println(mp);
+
+        // access items
+        System.out.println(mp.get("Java"));
+
+        // remove items
+        mp.remove("SQL");
+        System.out.println(mp);
+
+        // items size
+        System.out.println(mp.size());
+
+        // loop keys
+        for (String i : mp.keySet()) {
+            System.out.println(i);
+        }
+
+        // loop values
+        for (Integer i : mp.values()) {
+            System.out.println(i);
+        }
+
+        // loop keys and values
+        for (Object i : mp.keySet()) {
+            System.out.println("keys: " + i + " Value: " + mp.get(i));
+        }
+
+        // keys check
+        boolean check1 = mp.containsKey("Java");
+        System.out.println(check1);
+
+        // values check
+        boolean check2 = mp.containsValue(22);
+        System.out.println(check2);
+    } 
+}

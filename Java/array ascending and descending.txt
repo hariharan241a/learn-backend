@@ -1,0 +1,29 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int array[] = {10, 70, 20, 45, 15};
+        
+        // Sorting the array in ascending order
+        Arrays.sort(array);
+        
+        // Printing the sorted array
+        System.out.println("Sorted array in ascending order: " + Arrays.toString(array));
+    }
+}
+
+===================================================================================================
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Main {
+    public static void main(String[] args) {
+        Integer array[] = {10, 70, 20, 45, 15};
+        
+        // Sorting the array in descending order
+        Arrays.sort(array, Collections.reverseOrder());
+        
+        // Printing the sorted array
+        System.out.println("Sorted array in descending order: " + Arrays.toString(array));
+    }
+}

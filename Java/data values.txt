@@ -1,0 +1,24 @@
+data values
+-----------
+5 types
+
+string  => store txt values
+int     => store integers (whole numbers) without decimals.
+float   => store float point numbers
+char    => store single charecters / ASCII values.
+boolean => store true / false
+
+two data types
+--------------
+primitive data type
+byte => short => int => long => float => double => blooean => char
+
+non primitive data type
+string => array => class
+
+
+
+
+
+
+

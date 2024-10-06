@@ -1,0 +1,65 @@
+Collection
+----------
+collection (Interfaces)
+store multiple values of similar datatypes in single refername.
+memory wastage is low, momory is allocated at runtime.
+
+               | list(I)
+
+Collection (I) | set(I)
+
+               | map(I)
+
+Collection   => SuperInterface
+List,Set,Map => SubInterface
+
+List
+----
+list is pre-defined interface which is present in java.util package.
+list is an index based.
+list allows duplicate.
+list prints in insertion order.
+
+Type of list
+------------
+ArrayList
+LinkedList
+Vector
+Stack
+
+Set
+---
+set is pre-defined interface which present in java.util package.
+set is value based one.
+set not allows duplicate.
+
+Type of set
+-----------
+HashSet => random (print random order value).
+LinkedHashSet => insertion (print insertion value)
+TreeSet => ascending order (print ascending value)
+
+Map
+---
+key, value pair combination.
+key does not allow duplicates.
+value allow duplicates.
+
+Type of map
+-----------
+HashMap => random (keys and value print random)
+LinkedHashMap => inseration (keys and values print inseration)
+TreeMap => acending order (keys and values print acending order)
+HashTable => random (keys and values print random)
+
+maps method
+-----------
+put()
+get()
+remove()
+clear()
+size()
+keySet()
+Values()
+containsKeys()
+containsValues()

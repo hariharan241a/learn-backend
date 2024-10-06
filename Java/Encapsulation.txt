@@ -1,0 +1,17 @@
+Encapsulation
+-------------
+sensitive data is hidden from users.
+
+get and set
+-----------
+
+get => method return variable value
+set => method set value
+
+why encapsulation ?
+-------------------
+better control (class, attributes and method).
+increased security
+Hidden data direct access from outside methods to access database.
+
+

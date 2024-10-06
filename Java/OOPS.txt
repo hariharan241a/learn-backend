@@ -1,0 +1,70 @@
+OOPS
+----
+oops provider clear structure programs.
+
+easy to maintains  |
+easy to reuses     | identified 
+easy to debugs     |
+
+less code and short time development.
+
+what is class and objects:
+class is a template for objects or blueprint.
+object is an instance of class or compile time memory allocation.
+
+oops main principle
+-------------------
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+
+Inheritance
+-----------
+class to use data and method from another class.
+
+Subclass   => child
+Superclass => parent
+
+Superclass data access(extends) keywords use it.
+Superclass class (attributes, methods) access extends use it.
+
+inheritance type
+----------------
+single inheritance
+multilevel inheritance
+hierarchical inheritance
+multiple inheritance
+hybrid inheritance
+
+single inheritance
+------------------
+one parent class and one child class.
+
+multilevel inheritance
+----------------------
+one parent class and more than child class.
+
+hierarchical inheritance
+-------------------------
+one child class and more than parent class.
+
+hybrid inheritance
+------------------
+combination of single and multiple inheritance.
+
+multiple inheritance
+--------------------
+multiple not work extends keyword.
+
+why multiple not work
+---------------------
+priority problems
+syntax problems
+compile time error
+support only interface concept.
+
+
+
+
+

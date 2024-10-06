@@ -1,0 +1,29 @@
+Exception
+---------
+It is like error, it occur the program will terminate line itself.
+
+Type of Exception
+-----------------
+Unchecked
+Checked
+
+Unchecked Exception (runtime)
+-----------------------------
+whenever the exception win occur in runtime it called runtime exception.
+
+ArithmeticException
+NullPointerException
+StringIndexOutOfBoundsException
+ArrayIndexOutOfBoundsException
+IndexOutOfBoundsException
+NumberFormatException
+InputMismatchException
+
+Checked Exception (compile time)
+--------------------------------
+whenever the exception win occur compile time it called compile time exception.
+
+FileNotFoundException
+IoNoFoundException
+SQLNotException
+ClassNotFoundException

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter value:");
+
+        String strVal = scan.nextLine();
+        String check = strVal.toLowerCase();
+        int count = 0;
+
+        for (int i = 0; i < check.length(); i++) {
+
+            if(check.charAt(i) == 'a' || check.charAt(i) == 'e' || check.charAt(i) == 'i' || check.charAt(i) == 'o' || check.charAt(i) == 'u') {
+                count++;
+            }
+        }
+
+        //boolean hashvowel = check.contains("a") || check.contains("e") || check.contains("i") || check.contains("o") || check.contains("u");
+
+    System.out.println("Count value: "+ count);
+    }
+}
