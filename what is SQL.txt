@@ -1,0 +1,26 @@
+what is SQL?
+------------
+SQL is structured query languages, It store retrieve, update and delete in database.
+It is not case sensitive languages.
+SQL is used by many database systems, including MySQL, MongoDB, Oracle in market.
+
+what is database
+----------------
+database is stored used to organize data.
+computer accessed and update efficiently.
+
+database type
+-------------
+structured 
+unstructured data
+
+structured
+----------
+predefined formats use rows and columns in a table (relational databases store structured data).
+
+Ex: Ecommerce, Banking, Healthcare 
+
+unstructured data
+-----------------
+text documents, images, or videos (NoSQL databases are commonly used for storing unstructured data).
+
