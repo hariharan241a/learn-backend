@@ -2,7 +2,6 @@
 <p>1. Write a program to check if a given number is a prime number.</p>
 
 `method:1`
-```markdown
 ```java
 import java.util.*;
 public class Main {
