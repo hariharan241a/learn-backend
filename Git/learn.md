@@ -16,30 +16,25 @@ https://git-scm.com/downloads/win
 ```
 Configure git
 -------------
-
 ```
-git config --global user.email "github@gmail.com"
+git config --global user.email "hariharan241a@gmail.com"
 ```
 ```
-git config --global user.name "github"
+git config --global user.name "hariharan241a"
 ```
 
 Initialize git
 --------------
-
 ```
 git init
 ```
-
 Check file status
 -----------------
-
 ```
 git status
 ```
 Git Add File One OR More
 ------------------------
-
 ```
 git add .
 ```
@@ -50,16 +45,13 @@ Your work finished stage or message
 ```
 git commit -m "uploaded text file"
 ```
-
 Push File Repository
 --------------------
-
 ```
 git remote add origin https://github.com/hariharan241a/note.git
 git branch -M main
 git push -u origin main
 ```
-
 Update File push
 ----------------
 ```
