@@ -1,18 +1,16 @@
 Git
 ---
-source code management tool (OR) version control tool.
-it used to maintain source code.
+<p>Source code management tool (OR) version control tool.</p>
+<p>It used to maintain source code.</p>
 
 GitHub
 ------
-it web tool in GitHub only used to create repository for maintain the source code.
-
-(Laptop/Desktop) => to GitHub => push
+<p>It web tool in GitHub only used to create repository for maintain the source code.</p>
+<p>(Laptop/Desktop) => to GitHub => push</p>
 
 Using git command line
 ----------------------
 Download git
-
 ```
 https://git-scm.com/downloads/win
 ```
